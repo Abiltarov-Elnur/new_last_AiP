@@ -1,0 +1,30 @@
+p {
+    color: rgb(255, 128, 0);
+    width: 300px;
+}
+
+h1 {
+    color: rgb(6, 252, 76);
+    text-align: right;
+}
+
+h2{
+    color: rgb(6, 235, 252);
+    text-align: center;
+    width: 300px;
+}
+
+h3{
+    color: red;
+}
+
+td{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    
+}
+
+th{
+    text-align: left;
+}
