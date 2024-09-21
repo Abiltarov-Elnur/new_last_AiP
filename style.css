@@ -2,7 +2,22 @@
 
 h2 {
 	font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
 }
-p {
+#pp {
 	font-weight: bold;
+    font-style: italic;
+    font-family: Arial;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    line-height: 1.5;
 }
