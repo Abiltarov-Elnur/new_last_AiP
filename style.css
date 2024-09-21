@@ -1,23 +1,24 @@
 
-
-h2 {
-	font-weight: normal;
-    font-style: normal;
-    font-size: 40px;
-}
-#pp {
-	font-weight: bold;
-    font-style: italic;
-    font-family: Arial;
+h1 {
+    text-indent: 50px;
+    font: bold italic 40px/60px Arial;
+    text-decoration: line-through;
 }
 
-h1{
-    font-size: 50px;
-    text-align: center;
+#span1{
+    font: 13px/20px "Times New Roman";
+    text-decoration: overline;
 }
 
-p{
-    font-size: 30px;
-    font-family: "Comic Sans MS";
-    line-height: 1.5;
+#ppp {
+    width: 300px;
+    color: red;
+    font: bold 40px Arial;
+    text-indent: 50px;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: red;
 }
