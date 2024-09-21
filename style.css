@@ -1,24 +1,18 @@
-
-h1 {
-    text-indent: 50px;
-    font: bold italic 40px/60px Arial;
-    text-decoration: line-through;
+h1{
+    color: rgb(124, 14, 192);
+    text-align: center;
+    
 }
 
-#span1{
-    font: 13px/20px "Times New Roman";
-    text-decoration: overline;
+h2{
+    color: green;
+    text-align: center;
 }
 
-#ppp {
-    width: 300px;
-    color: red;
-    font: bold 40px Arial;
-    text-indent: 50px;
-    text-decoration: underline;
+p{
+    font-family: Arial;
 }
 
-a{
-    text-decoration: none;
-    color: red;
+i{
+    color: green;
 }
