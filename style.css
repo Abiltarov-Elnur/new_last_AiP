@@ -1,18 +1,11 @@
-h1{
-    color: rgb(124, 14, 192);
-    text-align: center;
-    
+ul i{
+    color: red;
 }
 
-h2{
+p i{
     color: green;
-    text-align: center;
 }
 
-p{
-    font-family: Arial;
-}
-
-i{
-    color: green;
+p b i{
+    color: red;
 }
