@@ -1,16 +1,50 @@
-li > b{
-    color: red;
+.xxx{
+    font-size: 30px;
 }
 
-.odd{
-    color: rgb(255, 0, 0);
+.d1{
+    background-color: red;
 }
 
-.eve{
-    color: green;
+.d2{
+    background-color: green;
 }
 
-.eee{
-    color: red;
+.d3{
+    background-color: blue;
 }
 
+.f1{
+    background-color: red;
+}
+
+.f2{
+    background-color: green;
+}
+
+.eee {
+	font-size: 20px;
+}
+.zzz {
+	font-size: 30px;
+}
+
+.eee, .zzz{
+    line-height: 1.5;
+	font-family: Arial;
+}
+
+.eee {
+	font-size: 20px;
+}
+.zzz {
+	font-size: 30px;
+}
+.ggg {
+	font-size: 35px;
+}
+
+.eee, .zzz, .ggg{
+    text-align: center;
+	font-family: Arial;
+}
