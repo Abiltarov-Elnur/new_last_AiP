@@ -1,50 +1,44 @@
-.xxx{
+h2 .header {
+	color: red;
+    font-size: 40px;
+}
+
+h3 .header{
     font-size: 30px;
 }
 
-.d1{
-    background-color: red;
+.eee i{
+    color: red;
 }
 
-.d2{
-    background-color: green;
+p.eee {
+	color: red;
 }
 
-.d3{
-    background-color: blue;
+p .eee{
+    color: green;
 }
 
-.f1{
-    background-color: red;
+.eee .bbb {
+	color: rgb(0, 255, 136);
 }
 
-.f2{
-    background-color: green;
+.eee h2 {
+	color: rgb(0, 89, 255);
 }
 
-.eee {
-	font-size: 20px;
-}
-.zzz {
-	font-size: 30px;
+.eee h2.bbb {
+	color: rgb(109, 139, 43);
 }
 
-.eee, .zzz{
-    line-height: 1.5;
-	font-family: Arial;
+.eee h3.bbb {
+	color: red;
 }
 
-.eee {
-	font-size: 20px;
-}
-.zzz {
-	font-size: 30px;
-}
-.ggg {
-	font-size: 35px;
+.eee p.bbb {
+	color: rgb(97, 69, 69);
 }
 
-.eee, .zzz, .ggg{
-    text-align: center;
-	font-family: Arial;
+.eee .bbb .kkk {
+	color: rgb(188, 188, 188);
 }
