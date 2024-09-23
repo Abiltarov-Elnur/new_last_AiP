@@ -1,3 +1,16 @@
 li > b{
     color: red;
 }
+
+.odd{
+    color: rgb(255, 0, 0);
+}
+
+.eve{
+    color: green;
+}
+
+.eee{
+    color: red;
+}
+
