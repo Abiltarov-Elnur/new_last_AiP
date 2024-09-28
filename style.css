@@ -1,44 +1,52 @@
-h2 .header {
-	color: red;
-    font-size: 40px;
-}
-
-h3 .header{
-    font-size: 30px;
-}
-
-.eee i{
-    color: red;
-}
-
-p.eee {
+p.bbb {
 	color: red;
 }
 
-p .eee{
-    color: green;
-}
-
-.eee .bbb {
-	color: rgb(0, 255, 136);
-}
-
-.eee h2 {
-	color: rgb(0, 89, 255);
-}
-
-.eee h2.bbb {
-	color: rgb(109, 139, 43);
-}
-
-.eee h3.bbb {
+p .bbb {
 	color: red;
 }
 
 .eee p.bbb {
-	color: rgb(97, 69, 69);
+	color: red;
 }
 
-.eee .bbb .kkk {
-	color: rgb(188, 188, 188);
+.eee p .bbb {
+	color: red;
+}
+
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+.large {
+	font-size: 30px;
+}
+.small {
+	font-size: 20px;
+}
+
+.font{
+    font-size: 40px;
+}
+
+.color{
+    color: rgb(53, 107, 107);
+}
+
+.background{
+    background-color: rgb(146, 153, 159);
+}
+
+#elem1{
+    color: red;
+}
+
+#elem2{
+    color: green;
+}
+
+#elem2{
+    color: blue;
 }
