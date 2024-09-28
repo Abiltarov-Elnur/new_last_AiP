@@ -1,52 +1,28 @@
-p.bbb {
-	color: red;
+#block {
+	background-color: rgb(158, 150, 150);
+	color: rgb(91, 40, 40);
 }
-
-p .bbb {
-	color: red;
-}
-
-.eee p.bbb {
-	color: red;
-}
-
-.eee p .bbb {
-	color: red;
-}
-
-.success {
-	color: green;
-}
-.error {
-	color: red;
-}
-.large {
-	font-size: 30px;
-}
-.small {
+.text {
 	font-size: 20px;
 }
 
-.font{
-    font-size: 40px;
+#elem h2{
+    color: brown;
 }
 
-.color{
-    color: rgb(53, 107, 107);
+#elem .text{
+    color: blueviolet;
 }
 
-.background{
-    background-color: rgb(146, 153, 159);
+#elem p.text{
+    color: chartreuse;
 }
 
-#elem1{
-    color: red;
+#elem li.text{
+    background-color: aquamarine;
 }
 
-#elem2{
-    color: green;
-}
 
-#elem2{
-    color: blue;
+.eee.zzz.ccc{
+    color: darkblue;
 }
