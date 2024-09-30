@@ -1,48 +1,67 @@
-#block h1, #block h2 {
-	text-align: center;
+div p{
+    color: brown;
 }
 
-#blockk h1 {
-	font-size: 30px;
-}
-#blockk h2 {
-	font-size: 20px;
+div h2{
+    color: blue;
 }
 
-#blockk h1, #blockk h2 {
-	text-align: center;
+#block p{
+    background-color: brown;
 }
 
-
-
-#block h2 {
-	color: blue;
-}
-#block h3 {	
-	font-size: 16px;
-	color: red;
-}
-#block h1, #block h2, #block h3{
-    text-align: center;
+#block h2{
+    background-color: aqua;
 }
 
-
-#block h1.eee {
-	font-size: 30px;
-}
-#block h2.zzz {
-	font-size: 20px;
-}
-#block h2.zzz, #block h1.eee{
-    text-align: center;
+.bbb{
+    color: blueviolet;
 }
 
-
-.xxx .kkk, .eee h2.zzz, #eee h2{
-    text-align: center;
+#block .bbb{
+    font-size: 100px;
 }
 
+p.bbb{
+    color: blanchedalmond;
+}
 
-.eee h2.zzz, .xxx{
-    text-align: center;
+h2.bbb{
+    background-color: aquamarine;
+}
+
+#block p.bbb{
+    color: red;
+}
+
+.bbb, .xxx{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.bbb, h2.xxx{
+    color: chartreuse;
+}
+
+#block p.bbb, #block p.xxx{
+    background-color: darkblue;
+}
+
+.fff{
+    color: darkred;
+}
+
+.fff p{
+    color: darkorchid;
+}
+
+p.fff{
+    color: fuchsia;
+}
+
+.fff .bbb{
+    color: greenyellow;
+}
+
+.fff h2.bbb{
+    background-color: lightgreen;
 }
