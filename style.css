@@ -1,28 +1,71 @@
-#block {
-	background-color: rgb(158, 150, 150);
-	color: rgb(91, 40, 40);
-}
-.text {
-	font-size: 20px;
+.bbb.zzz {
+	color: red;
 }
 
-#elem h2{
-    color: brown;
+.bbb{
+    color: green
 }
 
-#elem .text{
-    color: blueviolet;
+.zzz{
+    color: blue;
 }
 
-#elem p.text{
-    color: chartreuse;
+h2.bbb.zzz {
+	color: rgb(157, 63, 63);
 }
 
-#elem li.text{
-    background-color: aquamarine;
+#elem.bbb {
+	color: rgb(36, 91, 174);
+}
+
+#elem.bbb.zzz {
+	color: rgb(102, 65, 65);
+}
+
+h2#elem.bbb {
+	color: rgb(0, 255, 21);
 }
 
 
-.eee.zzz.ccc{
-    color: darkblue;
+
+
+
+h2.zzz {
+	color: red;
+}
+
+h2 .zzz {
+	color: rgb(255, 81, 0);
+}
+
+.bbb.zzz {
+	color: rgb(255, 208, 0);
+}
+
+.bbb .zzz {
+	color: rgb(200, 255, 0);
+}
+
+.bbb.zzz.xxx {
+	color: rgb(64, 255, 0);
+}
+
+.bbb .zzz.xxx {
+	color: rgb(0, 255, 136);
+}
+
+.bbbb.zzz .xxx {
+	color: rgb(0, 229, 255);
+}
+
+.bbb .zzz .xxx {
+	color: rgb(0, 153, 255);
+}
+
+#elemm.bbb {
+	color: rgb(251, 0, 255);
+}
+
+#elem .bbb {
+	color: rgb(0, 8, 255);
 }
