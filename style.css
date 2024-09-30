@@ -1,71 +1,48 @@
-.bbb.zzz {
+#block h1, #block h2 {
+	text-align: center;
+}
+
+#blockk h1 {
+	font-size: 30px;
+}
+#blockk h2 {
+	font-size: 20px;
+}
+
+#blockk h1, #blockk h2 {
+	text-align: center;
+}
+
+
+
+#block h2 {
+	color: blue;
+}
+#block h3 {	
+	font-size: 16px;
 	color: red;
 }
-
-.bbb{
-    color: green
-}
-
-.zzz{
-    color: blue;
-}
-
-h2.bbb.zzz {
-	color: rgb(157, 63, 63);
-}
-
-#elem.bbb {
-	color: rgb(36, 91, 174);
-}
-
-#elem.bbb.zzz {
-	color: rgb(102, 65, 65);
-}
-
-h2#elem.bbb {
-	color: rgb(0, 255, 21);
+#block h1, #block h2, #block h3{
+    text-align: center;
 }
 
 
-
-
-
-h2.zzz {
-	color: red;
+#block h1.eee {
+	font-size: 30px;
+}
+#block h2.zzz {
+	font-size: 20px;
+}
+#block h2.zzz, #block h1.eee{
+    text-align: center;
 }
 
-h2 .zzz {
-	color: rgb(255, 81, 0);
+
+.xxx .kkk, .eee h2.zzz, #eee h2{
+    text-align: center;
 }
 
-.bbb.zzz {
-	color: rgb(255, 208, 0);
-}
 
-.bbb .zzz {
-	color: rgb(200, 255, 0);
-}
-
-.bbb.zzz.xxx {
-	color: rgb(64, 255, 0);
-}
-
-.bbb .zzz.xxx {
-	color: rgb(0, 255, 136);
-}
-
-.bbbb.zzz .xxx {
-	color: rgb(0, 229, 255);
-}
-
-.bbb .zzz .xxx {
-	color: rgb(0, 153, 255);
-}
-
-#elemm.bbb {
-	color: rgb(251, 0, 255);
-}
-
-#elem .bbb {
-	color: rgb(0, 8, 255);
+.eee h2.zzz, .xxx{
+    text-align: center;
 }
