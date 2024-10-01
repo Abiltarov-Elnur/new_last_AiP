@@ -1,3 +1,32 @@
-main * p{
-    color: red;
+*[title]{
+    color: aqua;
+}
+
+p[title]{
+    color: brown;
+}
+
+p[title='hello']{
+    color: cornflowerblue;
+}
+
+a[href^='https://']{
+    color: crimson;
+}
+
+a[href$='.html']{
+    color: darkslategray;
+}
+
+p[title~="hello"]{
+    color: gold;
+}
+
+p[class|="top-"]{
+    color: rgb(255, 0, 0);
+}
+
+
+p[class|="text"] {
+	color: red;
 }
