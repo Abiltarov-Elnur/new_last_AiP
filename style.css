@@ -1,67 +1,11 @@
-div p{
-    color: brown;
-}
-
-div h2{
-    color: blue;
-}
-
-#block p{
-    background-color: brown;
-}
-
-#block h2{
-    background-color: aqua;
-}
-
-.bbb{
-    color: blueviolet;
-}
-
-#block .bbb{
-    font-size: 100px;
-}
-
-p.bbb{
-    color: blanchedalmond;
-}
-
-h2.bbb{
-    background-color: aquamarine;
-}
-
-#block p.bbb{
+#elem + li{
     color: red;
 }
 
-.bbb, .xxx{
-    font-family: 'Times New Roman', Times, serif;
+.elemm + li{
+    color: aqua;
 }
 
-p.bbb, h2.xxx{
-    color: chartreuse;
-}
-
-#block p.bbb, #block p.xxx{
-    background-color: darkblue;
-}
-
-.fff{
-    color: darkred;
-}
-
-.fff p{
-    color: darkorchid;
-}
-
-p.fff{
-    color: fuchsia;
-}
-
-.fff .bbb{
-    color: greenyellow;
-}
-
-.fff h2.bbb{
-    background-color: lightgreen;
+#eelem ~ li{
+    color: blueviolet;
 }
