@@ -1,11 +1,3 @@
-#elem + li{
+main * p{
     color: red;
-}
-
-.elemm + li{
-    color: aqua;
-}
-
-#eelem ~ li{
-    color: blueviolet;
 }
