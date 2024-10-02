@@ -1,32 +1,17 @@
-*[title]{
-    color: aqua;
+a{
+    color: rgb(10, 101, 193);
+    text-decoration: none;
 }
 
-p[title]{
-    color: brown;
+a:hover{
+    color: red;
+    text-decoration: underline;
 }
 
-p[title='hello']{
-    color: cornflowerblue;
-}
-
-a[href^='https://']{
-    color: crimson;
-}
-
-a[href$='.html']{
-    color: darkslategray;
-}
-
-p[title~="hello"]{
-    color: gold;
-}
-
-p[class|="top-"]{
-    color: rgb(255, 0, 0);
-}
-
-
-p[class|="text"] {
+#test a {
 	color: red;
+    text-decoration: underline;
+}
+#test a:hover {
+	text-decoration: none;
 }
