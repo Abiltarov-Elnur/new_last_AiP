@@ -1,34 +1,55 @@
-#block1 li:first-of-type{
-    color: red;
-    text-decoration: underline;
-}
-
-#block2 li:last-of-type{
-    color: blue;
-}
-
-#block3 li:nth-of-type(odd){
-    color: brown;
-}
-
-#block4 li:nth-last-child(3n){
-    color: blueviolet;
-}
-
-#block5 li:only-of-type{
-    color: darkblue;
-}
-
-li:not(.elem){
-    color: fuchsia;
-}
-
-#block6 li:not(:first-of-type){
-    color: green;
+#blk1{
+    background-color: blue;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
 }
 
 
-#block7 li:not(:first-of-type,  :last-of-type)
-{
-    color: indigo;
+#blk2{
+    background-color: green;
+    color: #fff;
+    width: 300px;
+    height: 200px;
+    font-size: 16px;
 }
+
+#border1{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
+
+#border2{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    border-style: dotted;
+    border-color: rgb(255, 0, 0);
+    border-width: 5px;
+}
+
+#border3{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    border-style: dashed;
+    border-color: rgb(255, 174, 0);
+    border-width: 2px;
+}
+
+#border4{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    border-style: double;
+    border-color: rgb(0, 76, 255);
+    border-width: 10px;
+}
+
+
+
+
