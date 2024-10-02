@@ -1,20 +1,34 @@
-a.zzz {
-	color: red;
-}
-a.zzz:hover {
-	text-decoration: none;
+#block1 li:first-of-type{
+    color: red;
+    text-decoration: underline;
 }
 
-#block a.zzz {
-	color: rgb(147, 80, 80);
-}
-#block a.zzz:hover {
-	text-decoration: none;
+#block2 li:last-of-type{
+    color: blue;
 }
 
-.block a.zzz {
-	color: rgb(134, 117, 117);
+#block3 li:nth-of-type(odd){
+    color: brown;
 }
-.block a.zzz:hover {
-	text-decoration: none;
+
+#block4 li:nth-last-child(3n){
+    color: blueviolet;
+}
+
+#block5 li:only-of-type{
+    color: darkblue;
+}
+
+li:not(.elem){
+    color: fuchsia;
+}
+
+#block6 li:not(:first-of-type){
+    color: green;
+}
+
+
+#block7 li:not(:first-of-type,  :last-of-type)
+{
+    color: indigo;
 }
