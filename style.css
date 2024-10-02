@@ -1,17 +1,20 @@
-a{
-    color: rgb(10, 101, 193);
-    text-decoration: none;
-}
-
-a:hover{
-    color: red;
-    text-decoration: underline;
-}
-
-#test a {
+a.zzz {
 	color: red;
-    text-decoration: underline;
 }
-#test a:hover {
+a.zzz:hover {
+	text-decoration: none;
+}
+
+#block a.zzz {
+	color: rgb(147, 80, 80);
+}
+#block a.zzz:hover {
+	text-decoration: none;
+}
+
+.block a.zzz {
+	color: rgb(134, 117, 117);
+}
+.block a.zzz:hover {
 	text-decoration: none;
 }
