@@ -1,17 +1,17 @@
 #ul1{
-    list-style-type: square;
+    list-style-type: lower-alpha;
 }
 
 #ul2{
-    list-style-type: circle;
+    list-style-type: upper-alpha;
 }
 
 #ul3{
-    list-style-type: disc;
+    list-style-type: lower-greek;
 }
 
 #ul4{
-    list-style-type: none;
+    list-style-type: decimal-leading-zero;
 }
 
 
