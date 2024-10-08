@@ -2,7 +2,7 @@
 #d1{
     width: 500px;
     height: 600px;
-    border: 3px dotted rgb(255, 0, 0);
+    border: 3px solid rgb(255, 191, 0);
 
     
 }
@@ -10,49 +10,44 @@
 #d1 div{
     width: 400px;
     height: 500px;
-    border: 3px solid rgb(38, 255, 0);
-    margin-top: 30px;
-    margin-left: 70px;
+    border: 3px dotted rgb(0, 55, 255);
+    margin: 20px 70px 80px 30px
 }
 
 #d2{
     width: 500px;
-    height: 600px;
-    border: 3px dotted rgb(255, 0, 0);
+    height: 700px;
+    border: 3px solid rgb(255, 170, 0);
 }
 
 #d2 div{
-    width: 400px;
-    height: 500px;
-    border: 3px solid rgb(38, 255, 0);
-    margin-top: 30px;
-    margin-left: 50px;
+    width: 300px;
+    height: 600px;
+    border: 3px dotted rgb(0, 30, 255);
+    margin: 50px 100px
 }
+
+
+
+
+
 
 #d3{
     width: 700px;
-    height: 600px;
-    border: 3px dotted rgb(255, 0, 0);
+    height: 400px;
+    border: 3px solid rgb(255, 157, 0);
 }
 
 #d3 div{
-    width: 600px;
-    height: 500px;
-    border: 3px solid rgb(38, 255, 0);
-    margin-top: 100px;
-    margin-left: 50px;
+    width: 400px;
+    height: 200px;
+    border: 3px dotted rgb(0, 94, 255);
+    margin: 100px 150px
 }
 
-#d4{
-    width: 500px;
-    height: 600px;
-    border: 3px dotted rgb(255, 0, 0);
-}
 
-#d4 div{
-    width: 300px;
-    height: 500px;
-    border: 3px solid rgb(38, 255, 0);
-    margin-top: 50px;
-    margin-left: 100px;
-}
+
+
+
+
+
