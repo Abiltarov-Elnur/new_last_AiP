@@ -1,77 +1,10 @@
-#pic1{
-    width: 1000px;
-    height: 1000px;
-    background-image: url(pics/bg.png);
-    background-repeat: repeat-x;
-    border: 10px dashed black;
+#ul1{
+    list-style-type: square;
 }
 
-#pic2{
-    margin-top: 5px;
-    width: 1000px;
-    height: 1000px;
-    background-image: url(pics/bg.png);
-    background-repeat: repeat-y;
-    background-repeat: no-repeat;
-    border: 10px dashed black;
+#ul2{
+    list-style-type: circle;
 }
-
-#pic3{
-    margin-top: 5px;
-    width: 1000px;
-    height: 1000px;
-    background-image: url(pics/bg.png);
-    background-position: right top;
-    background-repeat: no-repeat;
-    background-size: 400px 400px;
-    border: 10px dashed black;
-}
-
-#pic4{
-    margin-top: 5px;
-    width: 1000px;
-    height: 1000px;
-    background-image: url(pics/bg.png);
-    background-repeat: no-repeat;
-    background-size: 400px 400px;
-    background-attachment: fixed;
-    border: 10px dashed black;
-}
-
-#pic5{
-    margin-top: 5px;
-    width: 1000px;
-    height: 1000px;
-    background-color: brown;
-    background-repeat: no-repeat;
-    background-size: 400px 400px;
-    border: 10px dashed black;
-    padding: 30px;
-    background-clip: content-box;
-    
-
-}
-
-#pic6{
-    margin-top: 5px;
-    width: 1000px;
-    height: 1000px;
-    background-image: url(pics/bg.png);
-    background-repeat: no-repeat;
-    background-size: 400px 400px;
-    border: 10px dashed black;
-    background-origin: content-box;
-}
-
-#pic7{
-    margin-top: 5px;
-    width: 1000px;
-    height: 1000px;
-    background: 400px 400px no-repeat url(pics/bg.png);
-    border: 10px dashed black;
-
-}
-
 
 
 
