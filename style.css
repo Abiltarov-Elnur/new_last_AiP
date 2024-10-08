@@ -1,18 +1,43 @@
-#ul1{
-    list-style-type: lower-alpha;
+
+#d1{
+    width: 500px;
+    height: 600px;
+    border: 3px dotted blue;
+
+    
 }
 
-#ul2{
-    list-style-type: upper-alpha;
+#d1 div{
+    width: 100px;
+    height: 300px;
+    border: 3px solid rgb(255, 179, 0);
+    margin: 30px;
 }
 
-#ul3{
-    list-style-type: lower-greek;
+#d2{
+    width: 500px;
+    height: 600px;
+    border: 3px dotted blue;
+
+    
 }
 
-#ul4{
-    list-style-type: decimal-leading-zero;
+#d3{
+    width: 400px;
+    height: 500px;
+    border: 3px dotted rgb(38, 255, 0);
+    margin: 50px;
+
+    
 }
 
+#d3 div{
+    width: 300px;
+    height: 400px;
+    border: 3px solid rgb(255, 0, 0);
+    margin: 50px;
+
+    
+}
 
 
