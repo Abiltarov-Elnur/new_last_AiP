@@ -1,35 +1,40 @@
-#text{
+#text1{
     border: 2px solid red;
-    padding: 20px;
+    padding: 20px 10px 50px 40px;
     width: 200px;
     height: auto;
 }
 
 #text2{
-    margin-top: 100px;
-    border: 2px solid rgb(107, 163, 92);
-    padding: 20px;
-    width: 500px;
+    border: 2px solid red;
+    padding: 50px 20px ;
+    width: 200px;
     height: auto;
+    margin-top: 100px;
 }
 
 #text3{
     margin-top: 100px;
     border: 2px solid red;
-    padding: 70px;
+    padding: 20px 30px 50px;
     width: 200px;
     height: auto;
 }
 
-#text4{
-    margin-top: 100px;
-    border: 2px solid red;
-    padding-top:    20px; /* сверху */
-	padding-right:  30px; /* справа */
-	padding-bottom: 50px; /* снизу */
-	padding-left:   30px; /* слева */
-    width: 200px;
-    height: auto;
+
+
+
+.elem{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(154, 154, 154);
+}
+
+#elem1{
+    
+    border: 10px solid green;
+    box-sizing: border-box;
 }
 
 
