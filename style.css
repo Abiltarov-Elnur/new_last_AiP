@@ -1,13 +1,8 @@
-.elem{
-    display: inline;
-}
-
-a{
-    display: block;
-    margin-top: 40px;
-    width: 100px;
-    height: 100px;
-    border: 2px solid red;
+div {
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+    display: inline-block;
 }
 
 
