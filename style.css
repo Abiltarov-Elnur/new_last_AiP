@@ -2,29 +2,32 @@
 #d1{
     width: 500px;
     height: 600px;
-    border: 3px solid rgb(255, 191, 0);
+    border: 3px solid rgb(255, 0, 0);
+    
 
     
 }
 
 #d1 div{
-    width: 400px;
-    height: 500px;
-    border: 3px dotted rgb(0, 55, 255);
-    margin: 20px 70px 80px 30px
+    width: 300px;
+    height: 400px;
+    border: 3px solid rgb(52, 181, 23);
+    margin: 20px 80px 40px;
+    
 }
 
 #d2{
     width: 500px;
     height: 700px;
     border: 3px solid rgb(255, 170, 0);
+    margin-top: 50px;
 }
 
 #d2 div{
     width: 300px;
-    height: 600px;
+    height: 500px;
     border: 3px dotted rgb(0, 30, 255);
-    margin: 50px 100px
+    margin: 150px 100px 10px
 }
 
 
