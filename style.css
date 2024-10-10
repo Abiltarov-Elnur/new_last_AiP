@@ -1,9 +1,30 @@
-div {
-	width: 100px;
-	height: 100px;
-	border: 1px solid red;
-    display: inline-block;
+#main_el{
+    height: 500px;
+    width: 700px;
+    border: 2px solid red;
 }
 
+#el1{
+    border: 2px solid rgb(43, 255, 0);
+    
+    width: 100px;
+    height: 100px;
+    margin: 30px auto
+}
 
+#el2{
+    height: 100px;
+    width: 200px;
+    border: 2px solid rgb(0, 255, 8);
+    margin: 30px auto
+    
+}
+
+#el3{
+    width: 400px;
+    height: 100px;
+    border: 2px solid rgb(0, 255, 13);
+    margin: 30px auto
+    
+}
 
