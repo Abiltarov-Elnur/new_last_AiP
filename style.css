@@ -3,10 +3,10 @@
 	border: 1px solid red;
     text-align: center;
 }
-
-.parent1 {
-	padding: 10px 0;
-	border: 1px solid red;
-    text-align: right;
-    padding-right: 30px;
+.child {
+	padding: 10px;
+	border: 1px solid green;
+    display: inline-block;
+    margin: 5px 0;
+    
 }
