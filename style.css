@@ -1,53 +1,36 @@
+#text{
+    border: 2px solid red;
+    padding: 20px;
+    width: 200px;
+    height: auto;
+}
 
-#d1{
+#text2{
+    margin-top: 100px;
+    border: 2px solid rgb(107, 163, 92);
+    padding: 20px;
     width: 500px;
-    height: 600px;
-    border: 3px solid rgb(255, 0, 0);
-    
-
-    
+    height: auto;
 }
 
-#d1 div{
-    width: 300px;
-    height: 400px;
-    border: 3px solid rgb(52, 181, 23);
-    margin: 20px 80px 40px;
-    
+#text3{
+    margin-top: 100px;
+    border: 2px solid red;
+    padding: 70px;
+    width: 200px;
+    height: auto;
 }
 
-#d2{
-    width: 500px;
-    height: 700px;
-    border: 3px solid rgb(255, 170, 0);
-    margin-top: 50px;
+#text4{
+    margin-top: 100px;
+    border: 2px solid red;
+    padding-top:    20px; /* сверху */
+	padding-right:  30px; /* справа */
+	padding-bottom: 50px; /* снизу */
+	padding-left:   30px; /* слева */
+    width: 200px;
+    height: auto;
 }
-
-#d2 div{
-    width: 300px;
-    height: 500px;
-    border: 3px dotted rgb(0, 30, 255);
-    margin: 150px 100px 10px
-}
-
-
-
-
-
-
-#d3{
-    width: 700px;
-    height: 400px;
-    border: 3px solid rgb(255, 157, 0);
-}
-
-#d3 div{
-    width: 400px;
-    height: 200px;
-    border: 3px dotted rgb(0, 94, 255);
-    margin: 100px 150px
-}
-
 
 
 
