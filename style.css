@@ -2,11 +2,11 @@
 	border: 1px solid red;
 
     display: inline-flex;
-    padding: 10px;
+   
 }
 .child {
 	border: 1px solid green;
-    
+    margin: 10px;
     width: 30px;
     height: 30px;
 }
