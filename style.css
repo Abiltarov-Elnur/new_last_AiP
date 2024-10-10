@@ -1,44 +1,14 @@
-#text1{
-    border: 2px solid red;
-    padding: 20px 10px 50px 40px;
-    width: 200px;
-    height: auto;
-}
-
-#text2{
-    border: 2px solid red;
-    padding: 50px 20px ;
-    width: 200px;
-    height: auto;
-    margin-top: 100px;
-}
-
-#text3{
-    margin-top: 100px;
-    border: 2px solid red;
-    padding: 20px 30px 50px;
-    width: 200px;
-    height: auto;
-}
-
-
-
-
 .elem{
-    margin-top: 50px;
+    display: inline;
+}
+
+a{
+    display: block;
+    margin-top: 40px;
     width: 100px;
     height: 100px;
-    background-color: rgb(154, 154, 154);
+    border: 2px solid red;
 }
-
-#elem1{
-    
-    border: 10px solid green;
-    box-sizing: border-box;
-}
-
-
-
 
 
 
