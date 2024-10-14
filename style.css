@@ -1,24 +1,90 @@
-.parent {
-	border: 1px solid red;
-    justify-content: space-around;
-    display: flex;
-    width: 300px;
-    height: 300px;
-   
-}
-.child {
-	border: 1px solid green;
-    width: 30px;
-    height: 30px;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.parent1 {
-    margin-top:30px ;
-	border: 1px solid red;
-    justify-content: space-evenly;
-    display: flex;
-    width: 300px;
-    height: 300px;
-   
+.main1{
+    width: 400px;
+    height: 400px;
+    border: 5px solid black;
 }
+
+.main{
+    margin-top: 40px;
+    width: 400px;
+    height: 400px;
+    border: 5px solid black;
+}
+
+.b1_blocks{
+    width: 100px;
+    height: 100px;
+}
+
+#par1{
+    border: 3px solid red ;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#par11{
+    border: 3px solid rgb(0, 98, 255) ;
+    position: absolute;
+    left: 160px;
+    top: 160px;
+}
+
+#par111{
+    border: 3px solid rgb(49, 144, 63) ;
+    position: absolute;
+    left: 290px;
+    top: 290px;
+}
+
+
+
+#par2{
+    border: 3px solid red ;
+    position: absolute;
+    left: 30px;
+    top: 600px;
+}
+
+#par22{
+    border: 3px solid rgb(0, 98, 255) ;
+    position: absolute;
+    left: 160px;
+    top: 600px;
+}
+
+#par222{
+    border: 3px solid rgb(49, 144, 63) ;
+    position: absolute;
+    left: 290px;
+    top: 600px;
+}
+
+#par3{
+    border: 3px solid red ;
+    position: absolute;
+    left: 50px;
+    top: 950px;
+}
+
+#par33{
+    border: 3px solid rgb(0, 98, 255) ;
+    position: absolute;
+    left: 100px;
+    top: 1000px;
+}
+
+#par333{
+    border: 3px solid rgb(49, 144, 63) ;
+    position: absolute;
+    left: 150px;
+    top: 1050px;
+}
+
+/*ТЫ ЕЩЕ НЕ ЗАКОНЧИЛ СТР 174 */
 
