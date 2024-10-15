@@ -3,88 +3,130 @@
     margin: 0;
 }
 
-.main1{
-    width: 400px;
-    height: 400px;
-    border: 5px solid black;
-}
-
 .main{
-    margin-top: 40px;
-    width: 400px;
+    margin-left: 100px;
     height: 400px;
-    border: 5px solid black;
+    width: 400px;
+    border: 3px solid black;
+    margin-top: 30px;
+    position: relative;
 }
 
-.b1_blocks{
+#main1{
+    background-color: rgb(0, 128, 75);
+}
+
+.pd1{
     width: 100px;
     height: 100px;
+    background-color: #fff;
 }
 
-#par1{
-    border: 3px solid red ;
+#pd1{
     position: absolute;
     left: 30px;
     top: 30px;
 }
 
-#par11{
-    border: 3px solid rgb(0, 98, 255) ;
+#pd11{
     position: absolute;
-    left: 160px;
-    top: 160px;
-}
-
-#par111{
-    border: 3px solid rgb(49, 144, 63) ;
-    position: absolute;
-    left: 290px;
-    top: 290px;
+    left: 270px;
+    top: 270px;
 }
 
 
 
-#par2{
-    border: 3px solid red ;
-    position: absolute;
-    left: 30px;
-    top: 600px;
+
+
+
+
+
+#main2{
+    margin-left: 100px;
+    height: 400px;
+    width: 200px;
+    border: 3px solid black;
+    margin-top: 30px;
+    position: relative;
 }
 
-#par22{
-    border: 3px solid rgb(0, 98, 255) ;
+.circle{
     position: absolute;
-    left: 160px;
-    top: 600px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(174, 177, 179);
 }
 
-#par222{
-    border: 3px solid rgb(49, 144, 63) ;
-    position: absolute;
-    left: 290px;
-    top: 600px;
-}
-
-#par3{
-    border: 3px solid red ;
-    position: absolute;
+#red{
+    background-color: red;
+    top: 25px;
     left: 50px;
-    top: 950px;
 }
 
-#par33{
-    border: 3px solid rgb(0, 98, 255) ;
+#yellow{
+    background-color: yellow;
+    top: 150px;
+    left: 50px;
+}
+
+#green{
+    background-color: green;
+    top: 275px;
+    left: 50px;
+}
+
+
+
+
+
+
+
+
+
+#main3{
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.fff{
+    background-color: #ffffff;
     position: absolute;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+#ulibka1{
+    width: 200px;
+    height: 200px;
+    top: 170px;
     left: 100px;
-    top: 1000px;
 }
 
-#par333{
-    border: 3px solid rgb(49, 144, 63) ;
-    position: absolute;
-    left: 150px;
-    top: 1050px;
+#ulibka2{
+    width: 300px;
+    height: 300px;
+    top: 50px;
+    left: 50px;
+    background-color: green;
 }
 
-/*ТЫ ЕЩЕ НЕ ЗАКОНЧИЛ СТР 174 */
+#eye1{
+    top: 70px;
+    left: 75px;
+}
+#eye2{
+    top: 70px;
+    left: 250px;
+}
 
+#nose{
+    left: 40%;
+    top: 50%;
+}
