@@ -21,12 +21,12 @@
     background-color: blue;
     top: 150px;
     left: 150px;
-    z-index: 2;
+    z-index: -1;
 }
 
 #q3{
     background-color: green;
     top: 200px;
     left: 200px;
-    z-index: 1;
+    z-index: 0;
 }
