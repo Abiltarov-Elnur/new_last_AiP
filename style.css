@@ -3,29 +3,30 @@
     margin: 0;
 }
 
-#hover{
+.box{
+    position: absolute;
+    width: 100px;
     height: 100px;
-    width: 100%;
-    background-color: yellowgreen;
-    text-align: center;
-    line-height: 100px;
-    font-size:30px;
-    color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: block;
-    
+
 }
 
-#main{
-    margin-top: 100px;
-    border: 3px solid yellowgreen;
-    padding-left: 20px;
-    padding-top: 20px;
+#q1{
+    background-color: red;
+    left: 100px;
+    top: 100px;
+    z-index: 0;
 }
 
+#q2{
+    background-color: blue;
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+}
 
-
-
-/*ты не закончил, но можешь пропушить*/
+#q3{
+    background-color: green;
+    top: 200px;
+    left: 200px;
+    z-index: 1;
+}
