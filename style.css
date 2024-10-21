@@ -3,16 +3,39 @@
     margin: 0;
 }
 
-#text{
-    border: 2px solid black;
-    padding: 30px;
-    margin: 30px;
+#main{
+    margin: 30px 30px;
+    width: 800px;
+    height: 200px;
+    border: 1px solid black;
 }
 
-.border{
-    border: 3px solid red;
-    width: 100px;
+.blocks{
+    margin: 10px 10px;
+    border: 1px solid red;
+    width: 50px;
+    height: 100px;
+    float: left;
+    
+}
+
+#mainn{
+
+    margin: 30px 30px;
+    width: 800px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.blockss{
+    margin: 10px 10px;
+    border: 1px solid red;
+    width: 50px;
     height: 100px;
     float: right;
-    margin: 10px;
+    
+}
+
+.clearfix {
+	clear: both;
 }
