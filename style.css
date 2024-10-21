@@ -7,35 +7,13 @@
     margin: 30px 30px;
     width: 800px;
     height: 200px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 0, 0);
 }
 
 .blocks{
-    margin: 10px 10px;
-    border: 1px solid red;
+    border: 1px solid rgb(174, 255, 0);
     width: 50px;
     height: 100px;
     float: left;
     
-}
-
-#mainn{
-
-    margin: 30px 30px;
-    width: 800px;
-    height: 200px;
-    border: 1px solid black;
-}
-
-.blockss{
-    margin: 10px 10px;
-    border: 1px solid red;
-    width: 50px;
-    height: 100px;
-    float: right;
-    
-}
-
-.clearfix {
-	clear: both;
 }
