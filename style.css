@@ -9,7 +9,7 @@
     margin: 30px;
 }
 
-#border{
+.border{
     border: 3px solid red;
     width: 100px;
     height: 100px;
