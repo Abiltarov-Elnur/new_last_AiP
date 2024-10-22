@@ -10,9 +10,24 @@
     border: 1px solid rgb(255, 0, 0);
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.blocks{
+    border: 1px solid rgb(48, 159, 38);
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.blocks-el{
+    align-self: flex-end;
+    border: 1px solid rgb(48, 159, 38);
+    float: left;
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -22,9 +37,24 @@
     height: 200px;
     border: 1px solid rgb(255, 0, 0);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+}
+
+.blockss{
+    border: 1px solid rgb(48, 159, 38);
+    float: left;
+
+    
+}
+
+.blockss-el{
+    align-self: flex-end;
+    border: 1px solid rgb(48, 159, 38);
+    float: left;
+    width: 30px;
+    height: 30px;
+    align-self: center;
 }
 
 #main3{
@@ -35,83 +65,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-}
-
-
-
-#main4{
-    margin: 30px 30px;
-    width: 400px;
-    height: 200px;
-    border: 1px solid rgb(255, 0, 0);
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-
-#main5{
-    margin: 30px 30px;
-    width: 400px;
-    height: 200px;
-    border: 1px solid rgb(255, 0, 0);
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
     align-items: flex-start;
 }
 
-#main6{
-    margin: 30px 30px;
-    width: 400px;
-    height: 200px;
-    border: 1px solid rgb(255, 0, 0);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-}
 
-#main7{
-    margin: 30px 30px;
-    width: 400px;
-    height: 200px;
-    border: 1px solid rgb(255, 0, 0);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-
-#main8{
-    margin: 30px 30px;
-    width: 400px;
-    height: 200px;
-    border: 1px solid rgb(255, 0, 0);
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-#main9{
-    margin: 30px 30px;
-    width: 400px;
-    height: 200px;
-    border: 1px solid rgb(255, 0, 0);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-
-
-.blocks{
+.block{
     border: 1px solid rgb(48, 159, 38);
     float: left;
     width: 30px;
     height: 30px;
-    
+}
+
+.block-el{
+    align-self: center;
+    border: 1px solid rgb(48, 159, 38);
+    float: left;
+    width: 30px;
+    height: 30px;
 }
