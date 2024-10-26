@@ -28,7 +28,7 @@
     width: 600px;
     border: 2px solid blue;
     padding: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1.5fr;
 }
 
 .ch2{
@@ -43,7 +43,7 @@
     width: 600px;
     border: 2px solid blue;
     padding: 10px;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1.5fr 2.5fr;
 }
 
 .ch3{
