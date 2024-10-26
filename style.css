@@ -12,7 +12,7 @@
     width: 400px;
     border: 2px solid blue;
     padding: 10px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .ch1{
@@ -28,7 +28,7 @@
     width: 600px;
     border: 2px solid blue;
     padding: 10px;
-    grid-template-columns: 20% 1fr 1fr;
+    grid-template-columns: repeat(4, 100px) repeat(3, 2fr);
 }
 
 .ch2{
@@ -40,10 +40,10 @@
 #par3{
     margin-top: 30px;
     display: grid;
-    width: 600px;
+    width: 1300px;
     border: 2px solid blue;
     padding: 10px;
-    grid-template-columns: 100px 20% 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 100px) repeat(3, 200px) 1fr repeat(2, 10%);
 }
 
 .ch3{
