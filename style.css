@@ -43,7 +43,7 @@
     width: 300px;
     border: 2px solid blue;
     padding: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: 100px 150px 200px;
 }
 
 .ch3{
@@ -60,7 +60,7 @@
     width: 300px;
     border: 2px solid blue;
     padding: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: 1fr;
 }
 
 .ch33{
