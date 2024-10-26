@@ -43,10 +43,27 @@
     width: 300px;
     border: 2px solid blue;
     padding: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(143px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .ch3{
+    padding: 10px;
+    border: 2px solid blueviolet;
+}
+
+
+
+
+#par33{
+    margin-top: 30px;
+    display: grid;
+    width: 300px;
+    border: 2px solid blue;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.ch33{
     padding: 10px;
     border: 2px solid blueviolet;
 }
