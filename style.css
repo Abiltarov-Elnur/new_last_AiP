@@ -3,83 +3,62 @@
     margin: 0;
 }
 
-#main{
-    margin: 30px 30px;
+#parent{
+    display: grid;
+    border: 2px solid rgb(26, 100, 139);
+    width: 600px;
+    padding: 10px;
+    grid-template-columns: 10px 20px 30px 40px 50px 60px 70px 80px 90px
+
+}
+
+.child{
+    padding: 10px;
+	border: 1px solid #696989;
+}
+
+
+#par1{
+    margin-top: 30px;
+    display: grid;
     width: 400px;
-    height: 200px;
-    border: 1px solid rgb(255, 0, 0);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
+    border: 2px solid blue;
+    padding: 10px;
+    grid-template-columns: 200px 200px;
 }
 
-.blocks{
-    border: 1px solid rgb(48, 159, 38);
-    float: left;
-    width: 30px;
-    height: 30px;
-}
-
-.blocks-el{
-    align-self: flex-end;
-    border: 1px solid rgb(48, 159, 38);
-    float: left;
-    width: 30px;
-    height: 30px;
+.ch1{
+    padding: 10px;
+    border: 2px solid blueviolet;
 }
 
 
-#main2{
-    margin: 30px 30px;
-    width: 400px;
-    height: 200px;
-    border: 1px solid rgb(255, 0, 0);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+
+#par2{
+    margin-top: 30px;
+    display: grid;
+    width: 600px;
+    border: 2px solid blue;
+    padding: 10px;
+    grid-template-columns: 150px 150px 150px;
 }
 
-.blockss{
-    border: 1px solid rgb(48, 159, 38);
-    float: left;
-
-    
-}
-
-.blockss-el{
-    align-self: flex-end;
-    border: 1px solid rgb(48, 159, 38);
-    float: left;
-    width: 30px;
-    height: 30px;
-    align-self: center;
-}
-
-#main3{
-    margin: 30px 30px;
-    width: 400px;
-    height: 200px;
-    border: 1px solid rgb(255, 0, 0);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+.ch2{
+    padding: 10px;
+    border: 2px solid blueviolet;
 }
 
 
-.block{
-    border: 1px solid rgb(48, 159, 38);
-    float: left;
-    width: 30px;
-    height: 30px;
+#par3{
+    margin-top: 30px;
+    display: grid;
+    width: 600px;
+    border: 2px solid blue;
+    padding: 10px;
+    grid-template-columns: 100px 150px 200px;
 }
 
-.block-el{
-    align-self: center;
-    border: 1px solid rgb(48, 159, 38);
-    float: left;
-    width: 30px;
-    height: 30px;
+.ch3{
+    padding: 10px;
+    border: 2px solid blueviolet;
 }
