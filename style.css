@@ -3,19 +3,7 @@
     margin: 0;
 }
 
-#parent{
-    display: grid;
-    border: 2px solid rgb(26, 100, 139);
-    width: 600px;
-    padding: 10px;
-    grid-template-columns: 10px 20px 30px 40px 50px 60px 70px 80px 90px
 
-}
-
-.child{
-    padding: 10px;
-	border: 1px solid #696989;
-}
 
 
 #par1{
@@ -24,7 +12,7 @@
     width: 400px;
     border: 2px solid blue;
     padding: 10px;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .ch1{
@@ -40,7 +28,7 @@
     width: 600px;
     border: 2px solid blue;
     padding: 10px;
-    grid-template-columns: 150px 150px 150px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .ch2{
@@ -55,7 +43,7 @@
     width: 600px;
     border: 2px solid blue;
     padding: 10px;
-    grid-template-columns: 100px 150px 200px;
+    grid-template-columns: 1fr 1fr 2fr;
 }
 
 .ch3{
