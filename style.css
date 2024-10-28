@@ -79,6 +79,7 @@
     width: 300px;
     border: 2px solid blue;
     padding: 10px;
+    column-gap: 20%;
     grid-template: repeat(2, 1fr) 2.3fr 4fr / 1fr 2fr 4fr;
 }
 
