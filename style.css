@@ -5,64 +5,89 @@
 
 
 
-
-#par1{
-    margin-top: 30px;
-    display: grid;
-    width: 450px;
-    height: 350px;
-    border: 2px solid blue;
-    gap: 10px;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(4, 100px);
-}
-#par1 > div{
-    padding: 10px;
-    border: 2px solid blueviolet;
-    grid-column: auto;
-    grid-row: auto;
+#menu1{
+    margin: 50px 50px;
+    width: 500px;
+    height: 200px;
+    display: flex;
 }
 
 
+#menu1 a{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(0, 152, 91);
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font: 18px Arial;
+    
+    display: flex;
+    justify-content: center; /* Центровка по горизонтали */
+    align-items: center; /* Центровка по вертикали */
 
-
-
-
-
-
-#par2{
-    margin-top: 30px;
-    display: grid;
-    width: 300px;
-    border: 2px solid blue;
-    gap: 10px 5% ;
-    grid-template-columns: repeat(2, 100px) 200px 400px;
-    grid-template-rows: repeat(4, 100px);
-}
-
-#par2 > div{
-    padding: 10px;
-    border: 2px solid blueviolet;
 }
 
 
-
-
-
-
-
-#par3{
-    margin-top: 30px;
-    display: grid;
-    width: 300px;
-    border: 2px solid blue;
-    gap: 10px;
-    row-gap: 25%;
-    grid-template-columns: repeat(4, 100px);
+#menu1 a:hover, #menu1 a.active {
+    color: rgb(0, 152, 91);
+    background-color: #fff;
+    border: 2px solid rgb(0, 152, 91);
 }
 
-#par3 > div{
-    padding: 10px;
-    border: 2px solid blueviolet;
+
+#menu2{
+    margin: 50px 50px;
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
+
+#menu2 a{
+    display: flex;
+    padding: 15px 25px;
+    background-color: rgb(0, 152, 91);
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font: 18px Arial;
+    align-items: center; /* Центровка по вертикали */
+
+}
+
+
+#menu2 a:hover, #menu2 a.active {
+    color: rgb(0, 152, 91);
+    background-color: #fff;
+    border: 2px solid rgb(0, 152, 91);
+}
+
+#menu3{
+    margin: 50px 50px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+}
+
+
+#menu3 a{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(0, 152, 91);
+    color: #fff;
+    text-decoration: none;
+    font: 18px Arial;
+    
+    display: flex;
+    justify-content: center; /* Центровка по горизонтали */
+    align-items: center; /* Центровка по вертикали */
+
+}
+
+
+#menu3 a:hover, #menu3 a.active {
+    color: rgb(255, 255, 255);
+    background-color: #036539;
+}
