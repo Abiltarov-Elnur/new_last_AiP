@@ -13,6 +13,7 @@
     height: 300px;
     border: 2px solid blue;
     padding: 10px;
+    gap: 10px;
     grid-template-columns: repeat(5, 100px);
 }
 #par1 > div{
@@ -21,19 +22,17 @@
 }
 
 #elem1 {
-	grid-column: 1 / 3;
+    grid-row: 1 / 4;
+	grid-column: 1 / 2;
 }
 #elem2 {
-	grid-column: 2 / 4;
+    grid-row: 1 / 2;
+	grid-column: 2 / 3;
 }
 #elem3 {
-	grid-column: 3 / 5
+    grid-row: 2 / 4;
+	grid-column: 2 / 3
 }
-
-
-
-/*стр 236*/
-
 
 
 
@@ -46,6 +45,7 @@
     width: 300px;
     border: 2px solid blue;
     padding: 10px;
+    gap: 10px 5% ;
     grid-template: repeat(5, 200px);
 }
 
@@ -57,16 +57,20 @@
 
 
 #elem11 {
-	grid-column: 1 / 3;
+    grid-row: 1 / 4;
+	grid-column: 1 / 2;
 }
 #elem22 {
-	grid-column: 2 / 5;
+    grid-row: 1 / 2;
+	grid-column: 2 / 4;
 }
 #elem33 {
-	grid-column: 1 / 4;
+    grid-row: 2 / 3;
+	grid-column: 2 / 3;
 }
 #elem44 {
-	grid-column: 3 / 5;
+    grid-row: 2 / 3;
+	grid-column: 3 / 4;
 }
 #elem55 {
 	grid-column: 1 / 4;
