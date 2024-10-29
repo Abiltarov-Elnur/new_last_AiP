@@ -1,20 +1,15 @@
 "use strict";
-let num, a=20, b=2, c=1, d;
-num = 123;
+let a=10, b=2, c=5, d=2;
 
-alert(num);
+alert(a+b);
+alert(a-b);
+alert(a*b);
+alert(a/b);
 
-alert(a);
 
-a = 10;
+let result = c + d;
+alert(result);
 
-alert(a);
 
-d = a + b + c;
 
-alert(d);
-/*
-Я люблю Вилена
-*/
 
-//я не гей, он просто мой брат
