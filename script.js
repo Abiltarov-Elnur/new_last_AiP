@@ -1,14 +1,7 @@
 "use strict";
-let a=10, b=2, c=5, d=2;
+let a = 1.5, b = 0.75;
 
 alert(a+b);
-alert(a-b);
-alert(a*b);
-alert(a/b);
-
-
-let result = c + d;
-alert(result);
 
 
 
