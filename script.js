@@ -1,8 +1,14 @@
 "use strict";
-let a = -1.5, b = -0.75;
+let a = 13, b = 5;
 
-alert(-a);
-alert(b);
+alert(a%b);
 
+let aa = 2;
 
+alert(2**10);
 
+let name, surname;
+name = 'Elnur';
+surname = 'Abiltarov'
+
+alert(name + surname)
