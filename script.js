@@ -1,8 +1,8 @@
 "use strict";
-let a = 1.5, b = 0.75;
+let a = -1.5, b = -0.75;
 
-alert(a+b);
-
+alert(-a);
+alert(b);
 
 
 
