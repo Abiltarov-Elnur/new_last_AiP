@@ -1,16 +1,20 @@
 "use strict";
-let str, java, script, a, b;
-str = '!!!';
-java = 'java';
-script = 'script';
-a=5;
-
-
-b = `str ${a} java`
+let str = `a
+b
+c`;
 
 alert(str);
-alert(java + " " + script)
 
-alert(script.length);
+let s, d, t, f;
+d= null;
+t = true;
+f = false;
+alert(s);
+alert(d);
+alert(t)
+alert(f);
 
-alert(b);
+let str1 = 'as', str2 = 'df', n1 = 10, n2 = -10;
+alert(str1*str2)
+alert(10/0);
+alert(n2/0);
