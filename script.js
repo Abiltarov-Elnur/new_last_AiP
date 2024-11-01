@@ -1,14 +1,16 @@
 "use strict";
-let a = 13, b = 5;
+let str, java, script, a, b;
+str = '!!!';
+java = 'java';
+script = 'script';
+a=5;
 
-alert(a%b);
 
-let aa = 2;
+b = `str ${a} java`
 
-alert(2**10);
+alert(str);
+alert(java + " " + script)
 
-let name, surname;
-name = 'Elnur';
-surname = 'Abiltarov'
+alert(script.length);
 
-alert(name + surname)
+alert(b);
