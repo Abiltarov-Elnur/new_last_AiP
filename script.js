@@ -1,20 +1,14 @@
 "use strict";
-let str = `a
-b
-c`;
+let a = 1, b = 2, c =3, t = true;
 
-alert(str);
+console.log(a);
+console.log(b, c);
+console.log('123');
 
-let s, d, t, f;
-d= null;
-t = true;
-f = false;
-alert(s);
-alert(d);
-alert(t)
-alert(f);
+console.log(t);
 
-let str1 = 'as', str2 = 'df', n1 = 10, n2 = -10;
-alert(str1*str2)
-alert(10/0);
-alert(n2/0);
+console.log(eee);
+
+let PI = 3.14, r = 3;
+
+console.log(PI * (r**2));
