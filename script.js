@@ -1,20 +1,15 @@
-let arr = [1, 2, 3];
+let arr = [1, 2, 3, 4, 5];
+console.log(arr[arr.length-1]);
 
-arr.push(4);
-arr.push(5);
+let arr1 = [1, 2, 3, 4, 5];
+console.log(arr[1] + arr[2] + arr[3] + arr[4] + arr[5]); 
 
-alert(arr);
+let obj = {1: 'Понедельник', 2: "Вторник", 3: "Среда", 4: "Четверг", 5: "Пятница", 6: "Суббота", 7:"Воскресенье"};
 
-let key1 = 1;
-let key2 = 3;
-
-alert(arr[key1] + arr[key2]);
-
-
-
-let arr1 = ['a', 'b', 'c', 'd', 'e'];
-
-delete arr1[2];
-delete arr1[3];
-
-alert(arr1.length);
+alert(obj[1]);
+alert(obj[2]);
+alert(obj[3]);
+alert(obj[4]);
+alert(obj[5]);
+alert(obj[6]);
+alert(obj[7]);
