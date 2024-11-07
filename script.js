@@ -1,24 +1,20 @@
-
-let arr1 = [];
-
-arr1[0] = 1;
-arr1[1] = 2;
-arr1[2] = 3;
-
-alert(arr1);
-
 let arr = [1, 2, 3];
 
-arr[3] = 1;
-arr[4] = 2;
+arr.push(4);
+arr.push(5);
 
 alert(arr);
 
+let key1 = 1;
+let key2 = 3;
+
+alert(arr[key1] + arr[key2]);
 
 
-let arr2 = [];
 
-arr2[3] = 'a';
-arr2[8] = 'b';
+let arr1 = ['a', 'b', 'c', 'd', 'e'];
 
-alert(arr2.length);
+delete arr1[2];
+delete arr1[3];
+
+alert(arr1.length);
