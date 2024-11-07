@@ -1,15 +1,8 @@
-let sec = 60, min = 60, hour = 24;
-
-let sutki = 60*60*24;
-
-alert('sutki ' + sutki);
+let r = prompt('R = circle: '), pi = 3.14;
+s = pi*r**2;
+alert('S sircle: '+ s);
 
 
-
-alert('30 sutki ' + 30 * sutki);
-
-
-alert('year ' + 365 * sutki);
-
-
-alert('min v sutkah ' + sutki / 60);
+let a = prompt('a = square: ');
+s = a**2;
+alert('S square: '+ s);
