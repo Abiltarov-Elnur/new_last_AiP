@@ -1,22 +1,24 @@
-let arr = ['a', 'b', 'c'];
 
-arr[0] = '1';
-arr[1] = '2';
-arr[2] = '3';
+let arr1 = [];
 
-alert(arr);
-
-arr[0] += '3';
-arr[1] += '3';
-arr[2] += '3';
-
-alert(arr);
-
-
-let arr1 = [1, 2, 3];
-
-arr1[0] += 1;
-arr1[1] += 2;
-arr1[2] += 3;
+arr1[0] = 1;
+arr1[1] = 2;
+arr1[2] = 3;
 
 alert(arr1);
+
+let arr = [1, 2, 3];
+
+arr[3] = 1;
+arr[4] = 2;
+
+alert(arr);
+
+
+
+let arr2 = [];
+
+arr2[3] = 'a';
+arr2[8] = 'b';
+
+alert(arr2.length);
