@@ -1,39 +1,61 @@
-//Задание 86
+//Задание 93
 
-let arr = {}
-arr.a = 1;
-arr.b = 2;
-arr[3] = 3;
+let key1 = 'x';
+let key2 = 'y';
+let key3 = 'z';
 
-console.log(arr);
+let obj = {
+	[key1 + '1']: 1,
+    [key2]: 2,
+	[key3]: 3
+};
 
-//Задание 87 
-
-let nah  = {1: 2, a: 4, 3: 7};
-console.log(nah[3]);
-console.log(nah[1]);
-console.log(nah['a']);
-
-//Задание 88, 89
-
-let obj = {x: 1, y: 2, z: 3};
-
-let k = Object.keys(obj)
-
-alert(k);
-
-let len = k.length
-
-console.log(Object.keys(obj).length);
-
-//Задание 90
+//Задание 96
 
 let obj1 = {x: 1, y: 2, z: 3};
+console.log( typeof obj1['x'] );
+
+let obj2 = {x: 1, y: 2, z: 3};
+console.log( typeof obj2 );
+
+console.log( typeof {} );
+
+//Задание 100
+
+let arr1 = [1, 2, 3];
+let arr2 = arr1;
+
+arr1[0] = 'a';
+console.log(arr1);
+
+//Задание 103.1
+
+let obj4 = {x: 1, y: 2, z: 3};
+console.log(obj4['x']);
+
+//Задание 103.2
+
+let obj5 = {x: 1, y: 2, z: 3};
 let key = 'x';
 
-console.log(obj[key]);
+console.log(obj5[key]);
 
-//Задание
+
+//Задание 103.3
+
+let obj6 = {x: 1, y: 2, z: 3};
+let sum = obj6['x'] + obj6['y'] + obj6['x'];
+
+console.log(sum);
+
+//Задание 103.4
+
+let obj7 = {x: 1, y: 2, z: 3};
+
+console.log(Object.keys(obj7).length);
+
+
+
 
 
 
