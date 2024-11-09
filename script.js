@@ -1,51 +1,39 @@
-//Задаени 81
+//Задание 86
 
-let obj = {1: 'Понедельник', 2: "Вторник", 3: "Среда", 4: "Четверг", 5: "Пятница", 6: "Суббота", 7:"Воскресенье"};
+let arr = {}
+arr.a = 1;
+arr.b = 2;
+arr[3] = 3;
 
-console.log(obj);
+console.log(arr);
 
+//Задание 87 
 
-//Задание 82
+let nah  = {1: 2, a: 4, 3: 7};
+console.log(nah[3]);
+console.log(nah[1]);
+console.log(nah['a']);
 
-let obj1 = {a: 1, b: 2, ccc: 'user'};
+//Задание 88, 89
 
-console.log(obj1['ccc']);
+let obj = {x: 1, y: 2, z: 3};
 
+let k = Object.keys(obj)
 
-//Задание 83
-let date = {year: 2024, month: 11, day: 9 };
+alert(k);
 
-console.log(date.year, date.month, date.day);
-//Задание 84
+let len = k.length
 
+console.log(Object.keys(obj).length);
 
-let obj2 = {
-	'1a': 1,
-	b2: 2,
-	'a-с': 6,
-	'd 4': 4,
-	e5: 5
-};
+//Задание 90
 
-console.log(obj2['1a']);
-console.log(obj2.b2);
-console.log(obj2['a-c']);
-console.log(obj2['d 4']);
-console.log(obj2.e5);
+let obj1 = {x: 1, y: 2, z: 3};
+let key = 'x';
 
-//Задание 85
-
-let obj3 = {x: 1, y: 2, z: 3};
-
-obj3.x = obj3.x**2
-//obj3.y = obj3.y**2
-//obj3.z = obj3.z**2
-
-console.log(obj3.x, obj3.y, obj3.z )
-
-
+console.log(obj[key]);
 
 //Задание
 
 
-//Задание
+
