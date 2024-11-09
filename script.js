@@ -1,61 +1,70 @@
-//Задание 93
+//Задание 105.1
 
-let key1 = 'x';
-let key2 = 'y';
-let key3 = 'z';
+let test = 5
 
-let obj = {
-	[key1 + '1']: 1,
-    [key2]: 2,
-	[key3]: 3
-};
+if(test > 10){
+    console.log('+++');
+} else {
+    console.log('---');
+}
 
-//Задание 96
+//Задание 105.2
 
-let obj1 = {x: 1, y: 2, z: 3};
-console.log( typeof obj1['x'] );
-
-let obj2 = {x: 1, y: 2, z: 3};
-console.log( typeof obj2 );
-
-console.log( typeof {} );
-
-//Задание 100
-
-let arr1 = [1, 2, 3];
-let arr2 = arr1;
-
-arr1[0] = 'a';
-console.log(arr1);
-
-//Задание 103.1
-
-let obj4 = {x: 1, y: 2, z: 3};
-console.log(obj4['x']);
-
-//Задание 103.2
-
-let obj5 = {x: 1, y: 2, z: 3};
-let key = 'x';
-
-console.log(obj5[key]);
+if(test < 10){
+    console.log('+++');
+} else {
+    console.log('---');
+}
 
 
-//Задание 103.3
+//Задание 105.3
 
-let obj6 = {x: 1, y: 2, z: 3};
-let sum = obj6['x'] + obj6['y'] + obj6['x'];
-
-console.log(sum);
-
-//Задание 103.4
-
-let obj7 = {x: 1, y: 2, z: 3};
-
-console.log(Object.keys(obj7).length);
+if(test >= 10){
+    console.log('+++');
+} else {
+    console.log('---');
+}
 
 
+//Задание 105.4
+
+if(test <= 10){
+    console.log('+++');
+} else {
+    console.log('---');
+}
 
 
+//Задание 106
+
+if(test == 10){
+    console.log('+++');
+} else {
+    console.log('---');
+}
+
+
+//Задание 107
+
+if(test != 10){
+    console.log('+++');
+} else {
+    console.log('---');
+}
+
+
+//Задание 108
+
+let test1 = 5, test2 = 10, test3 = 15, test4 = 20;
+
+if(test1>test2){
+    console.log(test1)
+}else{
+    console.log(test2)
+}
+
+if(test3==test4){
+    console.log('Значения равны')
+}
 
 
