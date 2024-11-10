@@ -1,70 +1,72 @@
-//Задание 105.1
+//Задание 109
 
-let test = 5
+let test = 'abc'
 
-if(test > 10){
+if(test == 'abc'){
     console.log('+++');
 } else {
     console.log('---');
 }
 
-//Задание 105.2
+//Задание 110
 
-if(test < 10){
-    console.log('+++');
-} else {
-    console.log('---');
-}
-
-
-//Задание 105.3
-
-if(test >= 10){
+let test1 = '123';
+let test2 = 123;
+if(test1 == test2){
     console.log('+++');
 } else {
     console.log('---');
 }
 
 
-//Задание 105.4
+//Задание 113
 
-if(test <= 10){
-    console.log('+++');
-} else {
-    console.log('---');
+num = 3;
+if (num > 0 && num < 5){
+    console.log('++=');
 }
 
+num1 = 4;
 
-//Задание 106
-
-if(test == 10){
-    console.log('+++');
-} else {
-    console.log('---');
+if ((num <= 1)&&(num1>=3)){
+    console.log('++=');
 }
 
+//Задание 117
 
-//Задание 107
-
-if(test != 10){
-    console.log('+++');
+if (!(num1 >= 0 || num2 <= 10)) {
+	console.log('+++');
 } else {
-    console.log('---');
+	console.log('---');
 }
 
+//Задание 118
+
+let test11 = true, test22 = false;
+
+if (test11 === true){
+    console.log('+==');
+}
+if (test22 != true){
+    console.log('+==');
+}
+
+//Задание 119
+
+let t1 = 1;
+
+if(t1 === true){
+    console.log('+=');
+}else{
+    console.log('---');
+}
 
 //Задание 108
 
-let test1 = 5, test2 = 10, test3 = 15, test4 = 20;
+let test3 = true;
 
-if(test1>test2){
-    console.log(test1)
-}else{
-    console.log(test2)
+if (test3) {
+	console.log('+++');
+} else {
+	console.log('---');
 }
-
-if(test3==test4){
-    console.log('Значения равны')
-}
-
-
