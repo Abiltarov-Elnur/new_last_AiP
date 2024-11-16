@@ -1,56 +1,53 @@
-//Задание 129
+//Задание 135
 
-let lang = 'eng';
+let age = 19;
+let res;
 
-switch (lang){
-    case 'ru':
-        console.log('рус');
-    break;
-    case 'eng':
-        console.log('анг');
-    break;
-    case 'de':   
-        console.log('нем');
-    break;
-    default:
-        console.log('язык не поддерживается');
-    break;
+if (age >= 18) {
+	res;
+	
+	if (age <= 23) {
+		res = 'от 18 до 23';
+	} else {
+		res = 'больше 23';
+	}
+} else {
+	res = 'меньше 18';
 }
-
-//Задание 131
-
-let num = -1;
-let res = num >= 0 ? '1':2;
 
 console.log(res);
 
-//Задание 132
+//Задание 137
 
-let a = 2 * (3 - 1);
-let b = 6 - 2;
+let arr = [1, 2, 3];
+let res1;
 
-console.log(a!=b)
-
-//Задание 133
-
-let answer = confirm('Тебе есть 18?');
-
-if(answer == true){
-    alert('Ну оооочень взрослый текст');
-
-}else{
-    alert('Ты ахирел, малый, иди домашку делай')
+if(arr.length == 3){
+    res1 = arr[0] + arr[2] + arr[1];
+    console.log(res1);
 }
 
-//Задание 134
+//Задание 138
 
-let age = 17;
-let adult;
+let str = 'abcd';
 
-if (age >= 18) {
-	adult = true;
-} else {
-	adult = false;
+if(str[0] == 'a'){
+    console.log('+++');
 }
 
-console.log(adult);
+//Задание 139.1
+
+let num = 12340;
+let str1 = String(num)
+if ((str1[str1.length-1]) == 0){
+    console.log('++');
+}
+
+//Задание 139.2
+
+let number = 23454;
+let num_str = String(number);
+
+if((num_str[num_str.length-1]%2)==0){
+    console.log('Четное');
+}
