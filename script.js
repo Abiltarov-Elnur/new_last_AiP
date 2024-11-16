@@ -1,80 +1,56 @@
-//Задание 121
+//Задание 129
 
-let test = true;
+let lang = 'eng';
 
-if (!test) {
-	console.log('+++');
-} else {
-	console.log('---');
+switch (lang){
+    case 'ru':
+        console.log('рус');
+    break;
+    case 'eng':
+        console.log('анг');
+    break;
+    case 'de':   
+        console.log('нем');
+    break;
+    default:
+        console.log('язык не поддерживается');
+    break;
 }
 
-//Задание 123
+//Задание 131
 
-let test1 = true;
-let test2 = true;
-let test3 = true;
+let num = -1;
+let res = num >= 0 ? '1':2;
 
-if (test1 || test2 && test3) { 
-	console.log('+++');
-} else {
-	console.log('---');
-}
+console.log(res);
 
-//Задание 124
+//Задание 132
 
-let test4 = 10;
-if(test4 == 10){
-    console.log('yes');
-}
+let a = 2 * (3 - 1);
+let b = 6 - 2;
 
-//Задание 125
+console.log(a!=b)
 
-if (test > 0) console.log('+++');
+//Задание 133
 
+let answer = confirm('Тебе есть 18?');
 
-//Задание 127
+if(answer == true){
+    alert('Ну оооочень взрослый текст');
 
-let day = 34;
-
-if(day >= 0 && day <= 10){
-    console.log('Первая декада');
-}else if(day >= 11 && day <= 20){
-    console.log('Вторая декада');
-}else if(day >= 21 && day <= 31){
-    console.log('Третья декада');
 }else{
-    console.log('Ты мне втрираешь какую-то дичь')
+    alert('Ты ахирел, малый, иди домашку делай')
 }
 
-//Задание 128
+//Задание 134
 
-let num = 8;
+let age = 17;
+let adult;
 
-if(num >=10){
-    
-    if(num <= 99){
-        num = (num%10) + ((num/10)-((num%10)/10));
-        console.log(num)
-    }else{
-        console.log('Дичь')
-    }
-}else{
-    console.log('Дичь')
+if (age >= 18) {
+	adult = true;
+} else {
+	adult = false;
 }
 
-//Задание 109
-
-
-
-//Задание 109
-
-
-
-//Задание 109
-
-
-
-//Задание 109
-
-
-
+console.log(adult);
